@@ -193,6 +193,53 @@ Notons que, en TEI, il existe plusieurs manières de faire la même chose:
 ```
 
 ---
-# Le théâtre
+# Le Théâtre
 ---
+## Prise de parole
 
+![100% center](TEI_1.1_images/TEI_1.1_sp.jpg)
+
+On peut encoder les prises de paroles avec `<sp>`
+
+```XML
+<sp>
+    ORESTE.
+    <lg>
+        <l>Helas ! qui peut ſçauoir le Deſtin qui m’ameine ?</l>
+        <l>L’Amour me fait icy chercher vne Inhumaine.</l>
+        <l>Mais qui ſçait ce qu’il doit ordonner de mon Sort,</l>
+        <l>Et ſi ie viens chercher, ou la vie, ou la mort ?</l>
+    </lg>
+</sp>
+```
+---
+## Nom du personnage
+On peut encoder le nom du personnage qui parle avec `<speaker>`
+
+```XML
+<sp who="oreste">
+    <speaker>ORESTE.</speaker>
+    <lg>
+        <l>Helas ! qui peut ſçauoir le Deſtin qui m’ameine ?</l>
+        <l>L’Amour me fait icy chercher vne Inhumaine.</l>
+        <l>Mais qui ſçait ce qu’il doit ordonner de mon Sort,</l>
+        <l>Et ſi ie viens chercher, ou la vie, ou la mort ?</l>
+    </lg>
+</sp>
+```
+---
+## Didascalie
+
+Pour les didascalies, on va utiliser la balise `<stage>`
+
+![100% center](TEI_1.1_images/TEI_1.1_didascalie.jpg)
+
+```XML
+<sp>
+    <speaker>HERMIONNE</speaker> <stage>ſeule.</stage>
+    <l>Ov ſuis-je ? Qu’ay-je fait ? Que dois-je faire encore ?</l>
+    <l>Quel tranſport me ſaiſit ? Quel chagrin me deuore ?</l>
+    <l>Errante, &amp; ſans deſſein, ie cours dans ce Palais.</l>
+    <l>Ah ! ne puis-je ſçauoir ſi j’aime, ou ſi ie hais !</l>
+</sp>
+```

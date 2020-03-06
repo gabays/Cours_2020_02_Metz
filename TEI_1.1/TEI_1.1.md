@@ -63,19 +63,6 @@ Est encodée ainsi:
 
 ---
 
-On intègre les paragraphes à l'intérieur des `>div>`
-
-```XML
-<div>
-  <div>préface</div>
-  <div>introduction</div>
-  <div>chapitre 1</div>
-  <div>chapitre 2</div>
-  <div>postface</div>
-</div>
-```
----
-
 ```YAML
 livre:
   -partie 1
@@ -153,7 +140,7 @@ Il ne faut pas confondre un vers (`<l>`) avec un retour à la ligne (`<lb/>`)
 ---
 ## La strophe
 
-On encode les strophes avec `<lb>`. Regardez les @attributs.
+On encode les strophes avec `<lg>`. Regardez les @attributs.
 
 ![100% center](TEI_1.1_images/TEI_1.1_strophe.jpg)
 
@@ -173,7 +160,7 @@ On encode les strophes avec `<lb>`. Regardez les @attributs.
 ---
 ## Le mot
 
-On peut aussi encoder au niveau du mot avec `<w>`, par exemple pour la ryhme:
+On peut aussi encoder au niveau du mot avec `<w>`, par exemple pour la rime:
 
 ```XML
 <l>QVI voudra voyr comme vn Dieu
@@ -203,13 +190,13 @@ On peut encoder les prises de paroles avec `<sp>`
 
 ```XML
 <sp>
-    ORESTE.
-    <lg>
-        <l>Helas ! qui peut ſçauoir le Deſtin qui m’ameine ?</l>
-        <l>L’Amour me fait icy chercher vne Inhumaine.</l>
-        <l>Mais qui ſçait ce qu’il doit ordonner de mon Sort,</l>
-        <l>Et ſi ie viens chercher, ou la vie, ou la mort ?</l>
-    </lg>
+  ORESTE.
+  <lg>
+    <l>Helas ! qui peut ſçauoir le Deſtin qui m’ameine ?</l>
+    <l>L’Amour me fait icy chercher vne Inhumaine.</l>
+    <l>Mais qui ſçait ce qu’il doit ordonner de mon Sort,</l>
+    <l>Et ſi ie viens chercher, ou la vie, ou la mort ?</l>
+  </lg>
 </sp>
 ```
 ---
@@ -218,13 +205,13 @@ On peut encoder le nom du personnage qui parle avec `<speaker>`
 
 ```XML
 <sp who="oreste">
-    <speaker>ORESTE.</speaker>
-    <lg>
-        <l>Helas ! qui peut ſçauoir le Deſtin qui m’ameine ?</l>
-        <l>L’Amour me fait icy chercher vne Inhumaine.</l>
-        <l>Mais qui ſçait ce qu’il doit ordonner de mon Sort,</l>
-        <l>Et ſi ie viens chercher, ou la vie, ou la mort ?</l>
-    </lg>
+  <speaker>ORESTE.</speaker>
+  <lg>
+    <l>Helas ! qui peut ſçauoir le Deſtin qui m’ameine ?</l>
+    <l>L’Amour me fait icy chercher vne Inhumaine.</l>
+    <l>Mais qui ſçait ce qu’il doit ordonner de mon Sort,</l>
+    <l>Et ſi ie viens chercher, ou la vie, ou la mort ?</l>
+  </lg>
 </sp>
 ```
 ---
@@ -236,10 +223,10 @@ Pour les didascalies, on va utiliser la balise `<stage>`
 
 ```XML
 <sp>
-    <speaker>HERMIONNE</speaker> <stage>ſeule.</stage>
-    <l>Ov ſuis-je ? Qu’ay-je fait ? Que dois-je faire encore ?</l>
-    <l>Quel tranſport me ſaiſit ? Quel chagrin me deuore ?</l>
-    <l>Errante, &amp; ſans deſſein, ie cours dans ce Palais.</l>
-    <l>Ah ! ne puis-je ſçauoir ſi j’aime, ou ſi ie hais !</l>
+  <speaker>HERMIONNE</speaker> <stage>ſeule.</stage>
+  <l>Ov ſuis-je ? Qu’ay-je fait ? Que dois-je faire encore ?</l>
+  <l>Quel tranſport me ſaiſit ? Quel chagrin me deuore ?</l>
+  <l>Errante, &amp; ſans deſſein, ie cours dans ce Palais.</l>
+  <l>Ah ! ne puis-je ſçauoir ſi j’aime, ou ſi ie hais !</l>
 </sp>
 ```

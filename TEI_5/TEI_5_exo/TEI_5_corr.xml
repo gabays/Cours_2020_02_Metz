@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Exercice d'encodage sur Saint-Simon</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Simon Gabay, CC-BY</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mémoires de Saint-Simon</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="memoirs">
+         <head>MÉMOIRES
+         DE SAINT-SIMON.</head>
+            <div type="chapter" n="1">
+               <head>chapitre premier.</head>
+               <list>
+                  <item>1691.</item> <item>— Où et comment ces Mémoires commencés.</item> <item>— Ma première liaison avec M. le duc de
+                  Chartres.</item> <item>— Maupertuis, capitaine des mousquetaires gris; sa fortune et son caractère.</item> 
+                  <item>— 1692.</item> <item>— Ma première campagne, mousquetaire gris.</item> <item>— Siège de Namur par le roi
+                  en personne.</item> <item>— Reddition de Namur.</item> <item>— Solitude de Marlaigne.</item> <item>— Poudre cachée par les
+                  jésuites.</item> <item>— Bataille navale de la Hogue.</item> <item>— Danger de badiner avec des armes.</item> <item>— Coetquen
+                  et sa mort.</item>
+               </list>
+               
+               <!-- Alternative -->
+               
+               <list>
+                  <item>1691.</item>
+                  <item>— Où et comment ces Mémoires commencés.</item>
+                  <item>— Ma première liaison avec M. le duc de Chartres.</item>
+                  <item>— Maupertuis, capitaine des mousquetaires gris; sa fortune et son caractère.</item> 
+                  <item>— 1692.</item>
+                  <item>— Ma première campagne, mousquetaire gris.</item>
+                  <item>— Siège de Namur par le roi en personne.</item>
+                  <item>— Reddition de Namur.</item>
+                  <item>— Solitude de Marlaigne.</item>
+                  <item>— Poudre cachée par les jésuites.</item>
+                  <item>— Bataille navale de la Hogue.</item>
+                  <item>— Danger de badiner avec des armes.</item>
+                  <item>— Coetquen et sa mort.</item>
+               </list>
+               
+               <!-- Alternative -->
+               
+               <list>
+                  <item>
+                     <label>1691.</label>
+                     <list>
+                        <item>— Où et comment ces Mémoires commencés.</item>
+                        <item>— Ma première liaison avec M. le duc de Chartres.</item>
+                        <item>— Maupertuis, capitaine des mousquetaires gris; sa fortune et son caractère.</item> 
+                     </list>
+                  </item>
+                  <item>
+                     <label>— 1692.</label>
+                     <list>
+                        <item>— Ma première campagne, mousquetaire gris.</item>
+                        <item>— Siège de Namur par le roi en personne.</item>
+                        <item>— Reddition de Namur.</item>
+                        <item>— Solitude de Marlaigne.</item>
+                        <item>— Poudre cachée par les jésuites.</item>
+                        <item>— Bataille navale de la Hogue.</item>
+                        <item>— Danger de badiner avec des armes.</item>
+                        <item>— Coetquen et sa mort.</item>
+                     </list>
+                  </item>
+               </list>
+               
+               <p>Je suis né <date from="1675-01-15" to="1675-01-16">la nuit du 15 au 16 janvier 1675</date>, de <persName xml:id="CSS">Claude, duc de Saint-Simon</persName>, pair de 
+                  France, et de sa seconde femme <persName xml:id="CA">Charlotte de L’Aubépine</persName>, unique de ce lit. De <persName>Diane de 
+                     Budos</persName>, première femme de <rs ref="#CSS">mon père</rs>, il avoit eu une seule fille et point de garçon. Il 
+                  l’avoit mariée au <persName>duc de Brissac</persName>, pair de France, frère unique de la <persName>duchesse de Villeroy</persName>.
+                  Elle étoit morte en <date when="1684">1684</date>, sans enfants, depuis longtemps séparée d’un mari qui ne la 
+                  méritoit pas, et par son testament m’avoit fait son légataire universel.</p>
+               
+               
+               <p>Je portois le nom de vidame <note>Les vidames étaient des seigneurs qui tenaient des terres d’un évêché.</note> de <placeName>Chartres</placeName>, et je fus élevé avec un grand soin et une 
+                  grande application. <rs ref="#CA">Ma mère</rs>, qui avoit beaucoup de vertu et infiniment d’esprit de suite 
+                  et de sens, se donna des soins continuels à me former le corps et l’esprit. Elle craignit 
+                  pour moi le sort des jeunes gens qui se croient leur fortune faite et qui se trouvent 
+                  leurs maîtres de bonne heure. <rs ref="#CSS">Mon père</rs>, né en <date when="1606">1606</date>, ne pouvoit vivre assez pour me parer 
+                  ce malheur, et <rs ref="#CA">ma mère</rs> me répétoit sans cesse la nécessité pressante où se trouveroit de 
+                  valoir quelque chose un jeune homme entrant seul dans le monde, de son chef, fils d’un 
+                  favori de <persName>Louis XIII</persName>, dont tous les amis étoient morts ou hors d’état de l’aider, et d’une 
+                  mère qui, dès sa jeunesse, élevée chez la vieille <persName>duchesse d’Angoulême</persName>, sa parente, 
+                  grand’mère maternelle du <persName>duc de Guise</persName>, et mariée à un vieillard, n’avoit jamais vu que 
+                  leurs vieux amis et amies, et n’avoit pu s’en faire de son âge. Elle ajoutoit le défaut de 
+                  tous proches, oncles, tantes, cousins germains, qui me laissoit comme dans l’abandon à 
+                  moi-même, et augmentoit le besoin de savoir en faire un bon usage, sans secours et sans 
+                  appui ; ses deux frères obscurs, et l’aîné ruiné et plaideur de sa famille, et le seul 
+                  frère de mon père sans enfants et son aîné de huit ans.</p>
+               
+               <p>En même temps, elle s’appliquoit à m’élever le courage, et à m’exciter de me rendre tel 
+                  que je pusse réparer par moi-même des vides aussi difficiles à surmonter. Elle réussit à 
+                  m’en donner un grand désir. Mon goût pour l’étude et les sciences ne le seconda pas, mais 
+                  celui qui est comme né avec moi pour la lecture et pour l’histoire, et conséquemment de 
+                  faire et de devenir quelque chose par l’émulation et les exemples que je trouvois, suppléa 
+                  à cette froideur pour les lettres ; et j’ai toujours pensé que si on m’avoit fait moins 
+                  perdre de temps à celles-ci, et qu’on m’eût fait faire une étude sérieuse de celle-là, 
+                  j’aurois pu y devenir quelque chose.</p>
+               
+               <p>Cette lecture de l’histoire et surtout des Mémoires particuliers de la nôtre, des derniers
+                  temps depuis <persName>François Ier</persName>, que je faisois de moi-même, me firent naître l’envie d’écrire 
+                  aussi ceux de ce que je verrois, dans le désir et dans l’espérance d’être de quelque chose 
+                  et de savoir le mieux que je pourrois les affaires de mon temps. Les inconvénients ne 
+                  laissèrent pas de se présenter à mon esprit ; mais la résolution bien ferme d’en garder le 
+                  secret à moi tout seul me parut remédier à tout. Je les commençai donc en <date from="1694-07">juillet 1694</date>, 
+                  étant mestre de camp <note>Le titre de mestre de camp répondait à celui de colonel.</note> d’un régiment de cavalerie de mon nom, dans le <placeName>camp de Guinsheim</placeName> 
+                  sur le <geogName>Vieux-Rhin</geogName>, en l’armée commandée par le <persName>maréchal duc de Lorges</persName>.</p>
+               
+               <p>En <date when="1691">1691</date> j’étois en philosophie et commençois à monter à cheval à l’académie des sieurs de 
+                  Mémon à <placeName>Rochefort</placeName>, et je commençois aussi à m’ennuyer beaucoup des maîtres et de l’étude, 
+                  et à désirer fort d’entrer dans le service. Le siège de <placeName>Mons</placeName>, formé par <rs ref="#L14">le roi</rs> en 
+                  personne, à la première pointe du printemps, y avoit attiré presque tous les jeunes gens 
+                  de mon âge pour leur première campagne ; et ce qui me piquoit le plus, <persName>M. le duc de 
+                  Chartres</persName> y faisoit la sienne. J’avois été comme élevé avec lui, plus jeune que lui de huit
+                  mois, et si l’âge permet cette expression entre jeunes gens si inégaux, l’amitié nous 
+                  unissoit ensemble. Je pris donc ma résolution de me tirer de l’enfance, et je supprime les
+                  ruses dont je me servis pour y réussir. Je m’adressai à <rs ref="#CA">ma mère</rs> ; je reconnus bientôt 
+                  qu’elle m’amusoit. J’eus recours à <rs ref="#CSS">mon père</rs> à qui je fis accroire que <rs ref="#L14">le roi</rs>, ayant fait 
+                  un grand siège cette année, se reposeroit la prochaine. Je trompai <rs ref="#CA">ma mère</rs> qui ne 
+                  découvrit ce que j’avois tramé que sur le point de l’exécution, et que j’avois monté <rs ref="#CSS">mon 
+                  père</rs> à ne se laisser point entamer.</p>
+               
+               <p><rs ref="#L14">Le roi</rs> s’étoit roidi à n’excepter aucun de ceux qui entroient dans le service, excepté les
+                  seuls princes du sang et ses bâtards, de la nécessité de passer une année dans une de ses 
+                  deux compagnies de mousquetaires, à leur choix, et de là, à apprendre plus ou moins 
+                  longtemps à obéir, ou à la tête d’une compagnie de cavalerie, ou subalterne dans son 
+                  régiment d’infanterie qu’il distinguoit et affectiounoit sur tous</p> 
+
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>

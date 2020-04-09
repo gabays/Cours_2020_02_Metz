@@ -8,7 +8,7 @@ Metz, Jeudi 5 mars 2020
 ---
 # Exercice
 
-Prenez le fichier [TEI_2.xml](XXX) et ajoutez des métadonnées.
+Prenez le fichier [TEI_3.xml](XXX) et ajoutez des métadonnées.
 
 Procédez en trois étapes:
 1. Remplissez les données minimales de manière simple sans changer ```<p>``` et ```<title>```.
@@ -17,10 +17,10 @@ Procédez en trois étapes:
 	2.2. Dans ```<publicationStmt>``` et ```<sourceDesc>``` retirez le ```<p>``` et ajoutez des éléments.
 4. Tentez d'ajouter des nouveaux éléments en plus de  ```<fileDesc>```, comme ```<profileDesc>``` ou ```<revisionDesc>```.
 
-Une proposition de solution se trouve dans le fichier [TEI_2_corr.xml](XXX).
+Une proposition de solution se trouve dans le fichier [TEI_3_corr.xml](XXX).
 
 ---
 
 ### Quelques informations
 
-Les informations bibliographiques nécessaires se trouvent dans le docment ```TEI_2.txt```.
+Les informations bibliographiques nécessaires se trouvent dans le docment ```TEI_3_biblio.txt```.
